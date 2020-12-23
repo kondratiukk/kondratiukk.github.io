@@ -1,0 +1,142 @@
+
+	.div{
+		height: 1350px;
+		width: 650px;
+		background-color: white;
+		margin: auto;
+		border: 3px #fcf403 solid;
+		padding: 10px;
+}
+
+
+	body{
+		background-color: #fffec2;
+	}
+	
+	
+	h1{
+		font-size: 40px;
+		text-align: center;
+	}
+
+
+	.div-2{
+		width: 290px;
+		height:170px; 
+		border: 4px solid #ffd085;
+		border-radius: 6px;
+		display: inline-block;
+		margin: 10px;
+
+
+		
+	}
+	.div-2:hover{
+		color: blue;
+		width: 290px;
+		height: 255px;
+		border: 4px solid #ffd085;
+	}
+
+
+	.text-block{
+		color: black;
+		transition-duration: 0.3s;
+		font-size: 20px;
+		text-decoration: none;
+
+	}
+	 .text-block:hover{
+	 	color: #c21a08;
+	 }
+		
+
+
+
+.img-block{
+	width: 290px;
+	height: 120px;
+}
+
+.div-2 p{
+	opacity: 0%;
+	transition: opacity;
+	transition-duration: 0.3s;
+	font-size: 15px;
+}
+.div-2:hover p{
+	opacity: 100%;
+	font-size: 15px;
+}
+
+.menu{
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	width: 100px;
+	height: 100%;
+
+	background-color: #fff875;
+	transition: width;
+	transition-duration: 1s;
+}
+.menu:hover{
+	width: 230px;
+}
+.menu:hover a{
+	color: black;
+}
+.menu a{
+	display: block;
+	background-color: #fff875;
+	color: rgba(0,0,0,0);
+	text-decoration: none;
+	border: 2px solid #fff30d;
+	transition: color;
+	transition-duration: 1s;
+}
+.menu a:hover{
+	background-color: #d1d1d1;
+}
+
+.icons{
+	width: 50px;
+	border: 2px solid black;
+}
+
+.margin{
+	margin-top: 140px;
+}
+
+.div-roll{
+	display: flex;
+	align-items: top;
+}
+
+.div-vhod{
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	background-color: #fff875;
+	border: 2px solid #fff30d;
+
+	width: 200px;
+	height: 230px;
+}
+
+.h2-vhod{
+	text-align: center;
+}
+
+.p{
+	border-bottom: 1px solid black;
+}
+
+.button{
+	display: block;
+	margin-top: 10px;
+	width: 50px;
+}
+

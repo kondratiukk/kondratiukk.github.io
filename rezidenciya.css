@@ -1,0 +1,109 @@
+.menu{
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	width: 100px;
+	height: 100%;
+
+	background-color: #f7b4ab;
+	transition: width;
+	transition-duration: 1s;
+}
+.menu:hover{
+	width: 230px;
+}
+.menu:hover a{
+	color: black;
+}
+.menu a{
+	display: block;
+	background-color: #f7b4ab;
+	color: rgba(0,0,0,0);
+	text-decoration: none;
+	border: 2px solid #e04c38;
+	transition: color;
+	transition-duration: 1s;
+}
+.menu a:hover{
+	background-color: #d1d1d1;
+}
+
+.icons{
+	width: 50px;
+	border: 2px solid black;
+}
+
+.div{
+		height: 1800px;
+		width: 650px;
+		background-color: white;
+		margin: auto;
+		border: 3px #ff3300 solid;
+		padding: 10px;
+	}
+
+	body{
+		background-color: #ff9980;
+	}
+	
+	
+	h1{
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.p-1{
+	font-size: 15px;
+	margin: 0;
+}
+
+.p-23{
+	font-size: 15px;
+	margin: 0;
+}
+.p-4{
+	font-size: 15px;
+	margin: 0;
+	margin-bottom: 50px;
+}
+
+.icons-text{
+	width: 13px;
+}
+.p-1{font-size: 20px}
+
+.img{
+	width: 270px;
+	border: 3px  #ff9980 solid;
+	display: inline-block;
+	align-items: center;
+	
+
+}
+
+.div-vhod{
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	background-color: #f7b4ab;
+	border: 2px solid #e04c38;
+
+	width: 200px;
+	height: 230px;
+}
+
+.h2-vhod{
+	text-align: center;
+}
+
+.p-2{
+	border-bottom: 1px solid black;
+}
+
+.button{
+	display: block;
+	margin-top: 10px;
+	width: 50px;
+}
